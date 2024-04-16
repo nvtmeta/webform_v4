@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\WebApplication1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\productdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:productdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\productdetails.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:productdetails.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "F:\\WebApplication1\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "F:\\WebApplication1\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-15T16:21:42.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "F:\\WebApplication1\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwEIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:34:07.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDetails.aspx.designer.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\ProductDetails.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ProductDetails.aspx.designer.cs",
+              "ToolTip": "F:\\WebApplication1\\ProductDetails.aspx.designer.cs",
+              "RelativeToolTip": "ProductDetails.aspx.designer.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:32:42.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDetails.aspx.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\ProductDetails.aspx.cs",
+              "RelativeDocumentMoniker": "ProductDetails.aspx.cs",
+              "ToolTip": "F:\\WebApplication1\\ProductDetails.aspx.cs",
+              "RelativeToolTip": "ProductDetails.aspx.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDcAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:28:13.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "packages.config",
+              "DocumentMoniker": "F:\\WebApplication1\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "F:\\WebApplication1\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-15T15:28:17.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDetails.aspx",
+              "DocumentMoniker": "F:\\WebApplication1\\ProductDetails.aspx",
+              "RelativeDocumentMoniker": "ProductDetails.aspx",
+              "ToolTip": "F:\\WebApplication1\\ProductDetails.aspx",
+              "RelativeToolTip": "ProductDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-15T15:28:15.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.Master",
+              "DocumentMoniker": "F:\\WebApplication1\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "F:\\WebApplication1\\Site.Master",
+              "RelativeToolTip": "Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-15T14:27:55.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
