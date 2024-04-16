@@ -17,7 +17,7 @@
          <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
              <li class="lg:mr-12"><a class="rounded bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent 
                  transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Sản phẩm </a></li>
-             <li class="lg:mr-12"><a class="rounded bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Phấn Má</a></li>
+             <li class="lg:mr-12"><a class="rounded bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Kem Dưỡng</a></li>
              <li class="lg:mr-12"><a class="rounded bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Kem Nền - BB Cream</a></li>
              <li class="lg:mr-12"><a class="rounded bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Phấn Nước</a></li>
          </ul>

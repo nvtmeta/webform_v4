@@ -26,3 +26,20 @@
     overflow: hidden;
     -webkit-line-clamp: 2; /* Number of lines to show */
 }
+
+
+.heading_product{
+    font-weight:600;
+    font-size:30px;
+    color:#0094ff;
+
+}
+
+
+.leading-relaxed {
+    background-color: #c9f2ff;
+    width: 630px;
+    height: 100% ;
+    border-radius: 10px
+}
+
