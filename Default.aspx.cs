@@ -44,10 +44,10 @@ namespace WebApplication1
                     string productCardHtml = $@"
             <div class="" relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-2xl
         bg-white shadow-sm border-2 border-solid transition cursor-pointer hover:border-blue-400 hover:shadow-xl"">
-              <a class=""relative mx-3 mt-3 flex h-44 overflow-hidden rounded-2xl"" href=""/ProductDetails.aspx?productId={productId}"">
-                <img class=""object-cover w-full"" src=""{imageUrl}"" alt=""product image"" />
+              <a class=""relative mx-3 mt-3 flex  overflow-hidden rounded-2xl"" href=""/ProductDetails.aspx?productId={productId}"">
+                <img class=""object-cover w-full h-[285.6px]"" src=""{imageUrl}"" alt=""product image"" />
               </a>
-              <div class=""mt-2 px-2 pb-2"">
+              <div class=""mt-8 px-2 pb-2"">
                 <a  href=""/ProductDetails.aspx?productId={productId}"">
                   <h5 class=""text-lg  line-clamp-2 bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent font-bold "">{productName}</h5>
                 </a>

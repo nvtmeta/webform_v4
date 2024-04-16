@@ -6,7 +6,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <%--breadcums--%>
-    <div class=" py-12  leading-6">
+    <div class=" py-12 px-5  leading-6">
         <div class=" px-4 sm:px-6 lg:px-8">
             <nav>
                 <ul class="flex m-0 items-center p-0">
@@ -36,9 +36,14 @@
                     </li>
                 </ul>
             </nav>
-    <%--end breadcums--%>
+            <%--end breadcums--%>
 
             <asp:Literal ID="ProductDetailLiteral" runat="server"></asp:Literal>
+
+        <h2 class="heading_product px-5  "> Gợi ý cho bạn: </h2>
+            <div class="grid grid-cols-4">
+            <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
+            </div>
         </div>
 
     </div>
