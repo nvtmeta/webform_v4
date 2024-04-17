@@ -6,7 +6,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <%--breadcums--%>
-    <div class=" py-12  leading-6">
+    <div class=" py-12 px-5  leading-6">
         <div class=" px-4 sm:px-6 lg:px-8">
             <nav>
                 <ul class="flex m-0 items-center p-0">
@@ -24,7 +24,7 @@
                             <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z"></path>
                         </svg>
 
-                        <a href="#" title="" class="cursor-pointer text-sm font-normal leading-5 text-gray-400 hover:text-gray-900">Sản phẩm  </a>
+                        <a href="/Products" title="" class="cursor-pointer text-sm font-normal leading-5 text-gray-400 hover:text-gray-900">Sản phẩm  </a>
                     </li>
 
                     <li class="flex items-center text-left">
@@ -36,9 +36,14 @@
                     </li>
                 </ul>
             </nav>
-    <%--end breadcums--%>
+            <%--end breadcums--%>
 
             <asp:Literal ID="ProductDetailLiteral" runat="server"></asp:Literal>
+
+        <h2 class="heading_product text-2xl px-5"> Gợi ý cho bạn: </h2>
+            <div class="grid grid-cols-4">
+            <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
+            </div>
         </div>
 
     </div>

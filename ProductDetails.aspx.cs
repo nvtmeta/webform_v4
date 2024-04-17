@@ -27,6 +27,9 @@ namespace WebApplication1
                     string sql = "SELECT P.*, C.Name AS CategoryName FROM Products P INNER JOIN Categories C ON P.CategoryId = C.CategoryId" +
                         " WHERE P.isDeleted = 0 and P.ProductId=@ProductId"; // Replace with your actual query
 
+                    string sqlListProduct = "SELECT TOP(4) * FROM Products WHERE isDeleted = 0 "; // Replace with your actual query
+
+
                     using (SqlConnection connection = new SqlConnection(connectionString))
                     {
                         using (SqlCommand command = new SqlCommand(sql, connection))
@@ -50,7 +53,7 @@ namespace WebApplication1
 <section class=""text-gray-700 body-font overflow-hidden bg-white"">
   <div class=""container px-5 py-24 "">
     <div class="" justify-start flex "">
-      <img alt=""ecommerce"" class="" w-fit object-cover object-center rounded-2xl 
+      <img alt=""ecommerce"" class="" w-[624px] h-[624px] object-cover object-center rounded-2xl 
 border border-gray-200"" src={imageUrl}>
       <div class=""lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0"">
  <div class=""relative w-fit mb-3 grid select-none items-center whitespace-nowrap rounded-full border-[1px] border-solid border-blue-500
@@ -97,7 +100,6 @@ py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
             </a>
           </span>
         </div>
-        <p class=""leading-relaxed"">{description}</p>
         <div class=""flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5"">
           <div class=""flex"">
             <span class=""mr-3"">Color</span>
@@ -109,10 +111,10 @@ py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
             <span class=""mr-3"">Size</span>
             <div class=""relative"">
               <select class=""rounded border appearance-none border-gray-400 py-2 focus:outline-none focus:border-red-500 text-base pl-3 pr-10"">
-                <option>SM</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
+                <option>10ml</option>
+                <option>20ml</option>
+                <option>30ml</option>
+                <option>40ml</option>
               </select>
               <span class=""absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center"">
                 <svg fill=""none"" stroke=""currentColor"" stroke-linecap=""round"" stroke-linejoin=""round"" stroke-width=""2"" class=""w-4 h-4"" viewBox=""0 0 24 24"">
@@ -135,7 +137,14 @@ py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
         </div>
       </div>
     </div>
+      
   </div>
+<h2 class=""heading_product mt-5""> Chi tiết sản phẩm: </h2>
+ <p class=""leading-relaxed p-2 w-[624px] text-base mt-3"">{description}</p>
+
+
+
+
 </section>";
 
                                 ProductDetailLiteral.Text = productDetailHtml;
@@ -147,11 +156,63 @@ py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
 
                             reader.Close();
                         }
+
+                        // Fetch list of products
+                        using (SqlCommand command = new SqlCommand(sqlListProduct, connection))
+                        {
+                            SqlDataReader reader = command.ExecuteReader();
+
+                            // Process the list of products here
+                            while (reader.Read())
+                            {
+                                // Create a product card HTML string dynamically
+                                string ProductId = reader["ProductId"].ToString();
+                                string imageUrl = reader["image_url"].ToString();
+                                string productName = reader["Name"].ToString();
+                                //string description = reader["Description"].ToString();
+                                string lastPrice = reader["LastPrice"].ToString();
+                                string price = reader["Price"].ToString();
+
+                                string productCardHtml = $@"
+            <div class="" relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-2xl
+        bg-white shadow-sm border-2 border-solid transition cursor-pointer hover:border-blue-400 hover:shadow-xl"">
+              <a class=""relative mx-3 mt-3 flex  overflow-hidden rounded-2xl"" href=""/ProductDetails.aspx?productId={ProductId}"">
+                <img class=""object-cover w-full h-[285.6px]"" src=""{imageUrl}"" alt=""product image"" />
+              </a>
+              <div class=""mt-8 px-2 pb-2"">
+                <a  href=""/ProductDetails.aspx?productId={productId}"">
+                  <h5 class=""text-lg  line-clamp-2 bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent font-bold "">{productName}</h5>
+                </a>
+                <div class=""mt-2 mb-5 flex items-center justify-between"">
+                  <p>
+                    <span class=""text-xl font-medium text-red-400"">{lastPrice} đ</span>
+                    <span class=""text-sm text-slate-900 line-through"">{price} đ</span>
+                  </p>
+                </div>
+                <a href=""#"" class=""flex p-2 items-center justify-center rounded-md bg-gradient-to-r
+            from-sky-400 to-blue-500 
+            px-5 text-center text-sm font-medium text-white hover:from-sky-500 hover:to-blue-600  
+                focus:outline-none focus:ring-4 focus:ring-blue-300"">
+                  <svg xmlns=""http://www.w3.org/2000/svg"" class=""mr-2 h-6 w-6"" fill=""none"" viewBox=""0 0 24 24"" stroke=""currentColor"" stroke-width=""2"">
+                    <path stroke-linecap=""round"" stroke-linejoin=""round"" d=""M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"" />
+                  </svg>
+                  Thêm vào giỏ </a
+                >
+              </div>
+            </div>
+               ";
+
+
+
+                                // Add the product card HTML to a placeholder control or directly to the page
+                                ProductsPlaceholder.Controls.Add(new LiteralControl(productCardHtml));
+                            }
+
+                            reader.Close(); // Close the reader after use
+                        }
                     }
-                }
-                else
-                {
-                    // productId query string parameter is missing, handle accordingly
+
+
                 }
             }
         }

@@ -11,17 +11,8 @@ namespace WebApplication1
 {
 
 
-    public partial class ProductDetails
+    public partial class Products
     {
-
-        /// <summary>
-        /// ProductDetailLiteral control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ProductDetailLiteral;
 
         /// <summary>
         /// ProductsPlaceholder control.

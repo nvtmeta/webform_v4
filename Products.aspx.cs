@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
-    public partial class _Default : Page
+    public partial class Products : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -57,17 +56,15 @@ namespace WebApplication1
                     <span class=""text-sm text-slate-900 line-through"">{price} đ</span>
                   </p>
                 </div>
-             
-<a href=""#"" id=""addToCartBtn""  class=""flex p-2 items-center mx-auto w-full justify-center rounded-md bg-gradient-to-r
+                <a href=""#"" class=""flex p-2 items-center justify-center rounded-md bg-gradient-to-r
             from-sky-400 to-blue-500 
             px-5 text-center text-sm font-medium text-white hover:from-sky-500 hover:to-blue-600  
-                focus:outline-none focus:ring-4 focus:ring-blue-300""
- type=""button"">
-  <svg xmlns=""http://www.w3.org/2000/svg"" class=""mr-2 h-6 w-6"" fill=""none"" viewBox=""0 0 24 24"" stroke=""currentColor"" stroke-width=""2"">
+                focus:outline-none focus:ring-4 focus:ring-blue-300"">
+                  <svg xmlns=""http://www.w3.org/2000/svg"" class=""mr-2 h-6 w-6"" fill=""none"" viewBox=""0 0 24 24"" stroke=""currentColor"" stroke-width=""2"">
                     <path stroke-linecap=""round"" stroke-linejoin=""round"" d=""M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"" />
                   </svg>
-  Thêm vào giỏ
-</a>
+                  Thêm vào giỏ </a
+                >
               </div>
             </div>
                ";
@@ -79,8 +76,7 @@ namespace WebApplication1
                 }
 
                 reader.Close();
-            } // Make sure to close the SqlConnection block
-
+            } // Make su
         }
     }
 }
