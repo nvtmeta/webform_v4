@@ -44,8 +44,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="container mx-auto pt-3 body-content">
-            
+        <div class="container mx-auto body-content">
             
             <uc:Header runat="server" />
             <div class="container body-content">

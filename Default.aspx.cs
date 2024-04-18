@@ -49,7 +49,7 @@ namespace WebApplication1
               </a>
               <div class=""mt-2 px-2 pb-2"">
                 <a  href=""/ProductDetails.aspx?productId={productId}"">
-                  <h5 class=""text-lg  line-clamp-2 bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent font-bold "">{productName}</h5>
+                  <h5 class=""text-lg  line-clamp-2 bg-gradient-to-r  from-fuchsia-500 to-cyan-500  bg-clip-text text-transparent font-bold "">{productName}</h5>
                 </a>
                 <div class=""mt-2 mb-5 flex items-center justify-between"">
                   <p>
@@ -58,8 +58,8 @@ namespace WebApplication1
                   </p>
                 </div>
              
-<a href=""#"" id=""addToCartBtn""  class=""flex p-2 items-center mx-auto w-full justify-center rounded-md bg-gradient-to-r
-            from-sky-400 to-blue-500 
+<a href=""#"" id=""addToCartBtn""  class=""flex p-2 items-center mx-auto w-full justify-center rounded-full bg-gradient-to-r
+         from-fuchsia-500 to-cyan-500  
             px-5 text-center text-sm font-medium text-white hover:from-sky-500 hover:to-blue-600  
                 focus:outline-none focus:ring-4 focus:ring-blue-300""
  type=""button"">

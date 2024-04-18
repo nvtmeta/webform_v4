@@ -59,7 +59,7 @@
     </div>
 
     <div class="flex flex-column items-start">
-        <div class="text-3xl font-bold mt-5">Sản phẩm bán chạy</div>
+        <div class="text-3xl font-bold mt-5 bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent text-center w-full">Sản phẩm bán chạy</div>
         <div class="grid grid-cols-4">
             <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
         </div>

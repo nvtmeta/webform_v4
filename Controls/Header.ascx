@@ -1,5 +1,4 @@
-﻿ <header class="text-white font-bold relative flex max-h-20  rounded-full bg-gradient-to-r 
-     from-sky-400 to-blue-500  flex-col overflow-hidden p-2 
+﻿     <header class="text-white font-bold relative flex max-h-20  w-full top-0 mt-[-20px] fixed bg-gradient-to-r from-slate-300 to-slate-500  flex-col overflow-hidden p-2 
      lg:mx-auto lg:flex-row lg:items-center">
      <a href="/" class="flex items-center whitespace-nowrap text-2xl text-white">
          <img class="w-14 h-14  object-cover" src="https://bonita.vn/wp-content/uploads/2019/10/logo.png" alt="" />
