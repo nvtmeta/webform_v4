@@ -52,9 +52,10 @@ namespace WebApplication1
                   <h5 class=""text-lg  line-clamp-2 bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent font-bold "">{productName}</h5>
                 </a>
                 <div class=""mt-2 mb-5 flex items-center justify-between"">
-                  <p>
-                    <span class=""text-xl font-medium text-red-400"">{lastPrice} đ</span>
+                  <p >
+                    
                     <span class=""text-sm text-slate-900 line-through"">{price} đ</span>
+                    <span class=""text-xl font-medium text-red-400"">{lastPrice} đ</span>
                   </p>
                 </div>
                 <a href=""#"" class=""flex p-2 items-center justify-center rounded-md bg-gradient-to-r
