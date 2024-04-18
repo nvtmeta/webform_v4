@@ -2,7 +2,7 @@
      from-sky-400 to-blue-500  flex-col overflow-hidden p-2 
      lg:mx-auto lg:flex-row lg:items-center">
      <a href="/" class="flex items-center whitespace-nowrap text-2xl text-white">
-         <img class="w-14 h-14  object-cover" src="https://bonita.vn/wp-content/uploads/2019/10/logo.png" alt="" />
+         <img class="w-14 h-14  object-cover" src="https://i.ibb.co/s1GmYkj/party.png" alt="" />
          <p  class="bg-gradient-to-r text-white bg-clip-text text-transparent">Boleno</p>
      </a>
      <input type="checkbox" class="peer hidden" id="navbar-open" checked />
@@ -18,7 +18,7 @@
          <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
              <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white bg-clip-text text-transparent 
                  transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="/Products">Sản phẩm </a></li>
-             <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Phấn Má</a></li>
+             <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Phấn Má</a></li>
              <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Kem Nền - BB Cream</a></li>
              <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Phấn Nước</a></li>
          </ul>

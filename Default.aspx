@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
+﻿<%@ Page Title="Trang chủ" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <%--banners--%>
@@ -6,29 +6,28 @@
 
     <!-- Swiper -->
 
-
-    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+   <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://img.freepik.com/premium-photo/3d-surreal-sea-water-scene-summer-cosmetic-product-display-mockup-sunscreen-tube-is-mounted-glass-stage-decorated-with-crystal-balls-colorful-glass-plates_76964-132631.jpg?w=1060" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/bs3nGRg/1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://bonita.vn/wp-content/uploads/2022/03/274881384_1801220573416946_8666020635277249338_n-768x768.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/PcZNYJ6/2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://bonita.vn/wp-content/uploads/2022/03/274881384_1801220573416946_8666020635277249338_n-768x768.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/QkF6dpz/Beauty-Bolena-4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://img.freepik.com/premium-photo/mockup-plastic-jar-white-cube-podium-with-ethereal-tea-tree-leaves-glass-divider-wall-stands-this-cosmetic-ad-banner-that-is-suitable-skin-soothing-night-skincare_76964-132102.jpg?w=1060" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/v1VK7VZ/5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://img.freepik.com/premium-photo/featured-product-mockups-displayed-glass-stages-with-wavy-shape-dividers-palm-leaves-3d_76964-131950.jpg?w=1060" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/BsNd6LH/6.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
@@ -59,7 +58,7 @@
     </div>
 
     <div class="flex flex-column items-start">
-        <div class="text-3xl font-bold mt-5">Sản phẩm bán chạy</div>
+        <div class="text-3xl font-bold mt-5 px-5 w-full text-center" style=" color: #0094ff">Sản phẩm bán chạy</div>
         <div class="grid grid-cols-4">
             <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
         </div>

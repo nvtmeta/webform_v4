@@ -140,7 +140,7 @@ py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
       
   </div>
 <h2 class=""heading_product mt-5""> Chi tiết sản phẩm: </h2>
- <p class=""leading-relaxed p-2 w-[624px] text-base mt-3"">{description}</p>
+ <p class=""leading-relaxed bg-blue-500 p-2 w-[624px] text-base mt-3"">{description}</p>
 
 
 
