@@ -56,7 +56,7 @@ namespace WebApplication1
                     <span class=""text-sm text-slate-900 line-through"">{price} đ</span>
                   </p>
                 </div>
-                <a href=""#"" class=""flex p-2 items-center justify-center rounded-md bg-gradient-to-r
+                <a href=""/Orders.aspx?productId={productId}"" class=""flex p-2 items-center justify-center rounded-md bg-gradient-to-r
             from-sky-400 to-blue-500 
             px-5 text-center text-sm font-medium text-white hover:from-sky-500 hover:to-blue-600  
                 focus:outline-none focus:ring-4 focus:ring-blue-300"">

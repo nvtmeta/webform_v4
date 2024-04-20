@@ -3,60 +3,84 @@
   "WorkspaceRootPath": "F:\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\controls\\header.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:controls\\header.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\productdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:productdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\products.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:products.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|f:\\webapplication1\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\productdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:productdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\signin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:signin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|F:\\WebApplication1\\products.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F9AAC-732B-45B8-AE32-4C6D5E6F590D}|WebApplication1.csproj|solutionrelative:products.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,11 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Default.aspx",
               "DocumentMoniker": "F:\\WebApplication1\\Default.aspx",
               "RelativeDocumentMoniker": "Default.aspx",
@@ -80,110 +104,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-04-17T04:45:01.866Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SignUp.aspx",
-              "DocumentMoniker": "F:\\WebApplication1\\SignUp.aspx",
-              "RelativeDocumentMoniker": "SignUp.aspx",
-              "ToolTip": "F:\\WebApplication1\\SignUp.aspx",
-              "RelativeToolTip": "SignUp.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-17T08:29:02.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SignIn.aspx",
-              "DocumentMoniker": "F:\\WebApplication1\\SignIn.aspx",
-              "RelativeDocumentMoniker": "SignIn.aspx",
-              "ToolTip": "F:\\WebApplication1\\SignIn.aspx",
-              "RelativeToolTip": "SignIn.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-17T08:28:47.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "style.css",
-              "DocumentMoniker": "F:\\WebApplication1\\style.css",
-              "RelativeDocumentMoniker": "style.css",
-              "ToolTip": "F:\\WebApplication1\\style.css",
-              "RelativeToolTip": "style.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-17T08:12:59.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Orders.aspx.cs",
-              "DocumentMoniker": "F:\\WebApplication1\\Orders.aspx.cs",
-              "RelativeDocumentMoniker": "Orders.aspx.cs",
-              "ToolTip": "F:\\WebApplication1\\Orders.aspx.cs",
-              "RelativeToolTip": "Orders.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:37:33.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Orders.aspx",
-              "DocumentMoniker": "F:\\WebApplication1\\Orders.aspx",
-              "RelativeDocumentMoniker": "Orders.aspx",
-              "ToolTip": "F:\\WebApplication1\\Orders.aspx",
-              "RelativeToolTip": "Orders.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-17T05:43:51.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Site.Master",
-              "DocumentMoniker": "F:\\WebApplication1\\Site.Master",
-              "RelativeDocumentMoniker": "Site.Master",
-              "ToolTip": "F:\\WebApplication1\\Site.Master",
-              "RelativeToolTip": "Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-17T05:13:15.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "F:\\WebApplication1\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "Default.aspx.cs",
-              "ToolTip": "F:\\WebApplication1\\Default.aspx.cs",
-              "RelativeToolTip": "Default.aspx.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAgwDwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:53:42.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductDetails.aspx.cs",
-              "DocumentMoniker": "F:\\WebApplication1\\ProductDetails.aspx.cs",
-              "RelativeDocumentMoniker": "ProductDetails.aspx.cs",
-              "ToolTip": "F:\\WebApplication1\\ProductDetails.aspx.cs",
-              "RelativeToolTip": "ProductDetails.aspx.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:19:03.623Z",
               "EditorCaption": ""
             },
             {
@@ -201,7 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "F:\\WebApplication1\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T04:53:42.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Products.aspx",
               "DocumentMoniker": "F:\\WebApplication1\\Products.aspx",
               "RelativeDocumentMoniker": "Products.aspx",
@@ -209,38 +142,195 @@
               "RelativeToolTip": "Products.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-17T03:49:13.21Z",
+              "WhenOpened": "2024-04-17T03:49:13.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDetails.aspx.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\ProductDetails.aspx.cs",
+              "RelativeDocumentMoniker": "ProductDetails.aspx.cs",
+              "ToolTip": "F:\\WebApplication1\\ProductDetails.aspx.cs",
+              "RelativeToolTip": "ProductDetails.aspx.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwD4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T04:19:03.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\Site.Master.cs",
+              "RelativeDocumentMoniker": "Site.Master.cs",
+              "ToolTip": "F:\\WebApplication1\\Site.Master.cs",
+              "RelativeToolTip": "Site.Master.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwDAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:21:50.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Orders.aspx",
+              "DocumentMoniker": "F:\\WebApplication1\\Orders.aspx",
+              "RelativeDocumentMoniker": "Orders.aspx",
+              "ToolTip": "F:\\WebApplication1\\Orders.aspx",
+              "RelativeToolTip": "Orders.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-17T05:43:51.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Header.ascx",
-              "DocumentMoniker": "F:\\WebApplication1\\Controls\\Header.ascx",
-              "RelativeDocumentMoniker": "Controls\\Header.ascx",
-              "ToolTip": "F:\\WebApplication1\\Controls\\Header.ascx",
-              "RelativeToolTip": "Controls\\Header.ascx",
+              "Title": "Site.Master",
+              "DocumentMoniker": "F:\\WebApplication1\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "F:\\WebApplication1\\Site.Master",
+              "RelativeToolTip": "Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-04-17T05:05:34.936Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-17T05:13:15.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "Products.aspx.cs",
               "DocumentMoniker": "F:\\WebApplication1\\Products.aspx.cs",
               "RelativeDocumentMoniker": "Products.aspx.cs",
               "ToolTip": "F:\\WebApplication1\\Products.aspx.cs",
               "RelativeToolTip": "Products.aspx.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAACgAAAA+AAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:50:32.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T03:50:32.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Orders.aspx.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\Orders.aspx.cs",
+              "RelativeDocumentMoniker": "Orders.aspx.cs",
+              "ToolTip": "F:\\WebApplication1\\Orders.aspx.cs",
+              "RelativeToolTip": "Orders.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:37:33.462Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Site.Master.designer.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\Site.Master.designer.cs",
+              "RelativeDocumentMoniker": "Site.Master.designer.cs",
+              "ToolTip": "F:\\WebApplication1\\Site.Master.designer.cs",
+              "RelativeToolTip": "Site.Master.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:46:34.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignIn.aspx.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\SignIn.aspx.cs",
+              "RelativeDocumentMoniker": "SignIn.aspx.cs",
+              "ToolTip": "F:\\WebApplication1\\SignIn.aspx.cs",
+              "RelativeToolTip": "SignIn.aspx.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwFMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T11:30:21.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SignIn.aspx",
+              "DocumentMoniker": "F:\\WebApplication1\\SignIn.aspx",
+              "RelativeDocumentMoniker": "SignIn.aspx",
+              "ToolTip": "F:\\WebApplication1\\SignIn.aspx",
+              "RelativeToolTip": "SignIn.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-17T08:28:47.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignUp.aspx.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\SignUp.aspx.cs",
+              "RelativeDocumentMoniker": "SignUp.aspx.cs",
+              "ToolTip": "F:\\WebApplication1\\SignUp.aspx.cs",
+              "RelativeToolTip": "SignUp.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:09:00.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "F:\\WebApplication1\\SignUp.aspx",
+              "RelativeDocumentMoniker": "SignUp.aspx",
+              "ToolTip": "F:\\WebApplication1\\SignUp.aspx",
+              "RelativeToolTip": "SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-17T08:29:02.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignIn.aspx.designer.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\SignIn.aspx.designer.cs",
+              "RelativeDocumentMoniker": "SignIn.aspx.designer.cs",
+              "ToolTip": "F:\\WebApplication1\\SignIn.aspx.designer.cs",
+              "RelativeToolTip": "SignIn.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:45:07.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Default.aspx.designer.cs",
+              "DocumentMoniker": "F:\\WebApplication1\\Default.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Default.aspx.designer.cs",
+              "ToolTip": "F:\\WebApplication1\\Default.aspx.designer.cs",
+              "RelativeToolTip": "Default.aspx.designer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAnwBsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:48:38.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "style.css",
+              "DocumentMoniker": "F:\\WebApplication1\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "F:\\WebApplication1\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-17T08:12:59.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "F:\\WebApplication1\\Contact.aspx",
+              "RelativeDocumentMoniker": "Contact.aspx",
+              "ToolTip": "F:\\WebApplication1\\Contact.aspx",
+              "RelativeToolTip": "Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-18T12:00:05.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Products.aspx.designer.cs",
               "DocumentMoniker": "F:\\WebApplication1\\Products.aspx.designer.cs",
               "RelativeDocumentMoniker": "Products.aspx.designer.cs",
@@ -248,8 +338,7 @@
               "RelativeToolTip": "Products.aspx.designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:18:50.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T04:18:50.214Z"
             }
           ]
         }

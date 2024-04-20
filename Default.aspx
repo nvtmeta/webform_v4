@@ -11,24 +11,24 @@
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
             <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://img.freepik.com/premium-photo/3d-surreal-sea-water-scene-summer-cosmetic-product-display-mockup-sunscreen-tube-is-mounted-glass-stage-decorated-with-crystal-balls-colorful-glass-plates_76964-132631.jpg?w=1060" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="img1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://bonita.vn/wp-content/uploads/2022/03/274881384_1801220573416946_8666020635277249338_n-768x768.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/PcZNYJ6/2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://bonita.vn/wp-content/uploads/2022/03/274881384_1801220573416946_8666020635277249338_n-768x768.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/QkF6dpz/Beauty-Bolena-4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://img.freepik.com/premium-photo/mockup-plastic-jar-white-cube-podium-with-ethereal-tea-tree-leaves-glass-divider-wall-stands-this-cosmetic-ad-banner-that-is-suitable-skin-soothing-night-skincare_76964-132102.jpg?w=1060" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/v1VK7VZ/5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://img.freepik.com/premium-photo/featured-product-mockups-displayed-glass-stages-with-wavy-shape-dividers-palm-leaves-3d_76964-131950.jpg?w=1060" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="https://i.ibb.co/BsNd6LH/6.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
@@ -58,11 +58,24 @@
         </button>
     </div>
 
-    <div class="flex flex-column items-start">
-        <div class="text-3xl font-bold mt-5">Sản phẩm bán chạy</div>
-        <div class="grid grid-cols-4">
-            <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
+    <div class="flex items-center mt-5 items-start">
+        <div>
+            <div class="text-3xl font-bold ">Sản phẩm bán chạy</div>
         </div>
+        <div class="flex items-center gap-2">
+            <asp:TextBox  CssClass="block rounded-full
+text-sm text-gray-900 border border-gray-300 rounded-full bg-white border-2 border-solid border-[#ccc]  pl-10 ml-2
+focus:ring-blue-500 focus:border-blue-500"
+                ID="txtSearchName" runat="server" Width="200px"></asp:TextBox>
+            <asp:Button CssClass="text-white  end-2.5 bottom-2.5 bg-blue-700
+hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg 
+text-sm px-10 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click" />
+        </div>
+
+    </div>
+    <div class="grid md:grid-cols-4 grid-cols-1">
+        <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
     </div>
 
 </asp:Content>

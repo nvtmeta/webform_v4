@@ -50,14 +50,14 @@ namespace WebApplication1
                                 string price = reader["Price"].ToString();
 
                                 string productDetailHtml = $@"
-<section class=""text-gray-700 body-font overflow-hidden bg-white"">
-  <div class=""container px-5 py-24 "">
-    <div class="" justify-start flex "">
-      <img alt=""ecommerce"" class="" w-[624px] h-[624px] object-cover object-center rounded-2xl 
+<section class=""text-gray-700 body-font overflow-hidden bg-white mx-auto"">
+  <div class=""container px-5 md:py-24 "">
+    <div class="" justify-start flex md:flex-row flex-col gap-2 "">
+      <img alt=""ecommerce"" class="" md:w-[624px] md:h-[624px] object-cover object-center rounded-2xl 
 border border-gray-200"" src={imageUrl}>
       <div class=""lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0"">
  <div class=""relative w-fit mb-3 grid select-none items-center whitespace-nowrap rounded-full border-[1px] border-solid border-blue-500
-py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
+py-1.5 md:px-3 font-sans text-xs font-bold uppercase text-blue-500"">
       {category}
     </div>
         <h1 class=""text-gray-900 text-3xl title-font font-medium mb-1"">
@@ -107,7 +107,7 @@ py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
             <button class=""border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none""></button>
             <button class=""border-2 border-gray-300 ml-1 bg-red-500 rounded-full w-6 h-6 focus:outline-none""></button>
           </div>
-          <div class=""flex ml-6 items-center"">
+          <div class=""flex md:ml-6 items-center"">
             <span class=""mr-3"">Size</span>
             <div class=""relative"">
               <select class=""rounded border appearance-none border-gray-400 py-2 focus:outline-none focus:border-red-500 text-base pl-3 pr-10"">
@@ -126,7 +126,7 @@ py-1.5 px-3 font-sans text-xs font-bold uppercase text-blue-500"">
         </div>
         <div class=""flex"">
           <span class=""title-font font-medium text-2xl text-red-500 mr-3"">${lastPrice} đ</span>
-          <a href=""#"" class=""flex p-2 items-center justify-center rounded-md bg-gradient-to-r
+          <a href=""/Orders.aspx?productId={productId}"" class=""flex p-2 items-center justify-center rounded-md bg-gradient-to-r
             from-sky-400 to-blue-500 
             px-5 text-center text-sm font-medium text-white hover:from-sky-500 hover:to-blue-600  
                 focus:outline-none focus:ring-4 focus:ring-blue-300"">

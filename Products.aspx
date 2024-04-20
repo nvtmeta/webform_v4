@@ -15,8 +15,8 @@
         </div>
         <div class="mt-10 flex flex-col items-start justify-center space-y-4 py-8 px-4 sm:flex-row sm:space-y-0 md:justify-between lg:px-0">
             <div class="max-w-lg">
-                <h1 class="text-2xl font-bold text-gray-800">Beep Essences</h1>
-                <p class="mt-2 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. Quas necessitatibus exercitationem praesentium.</p>
+                <h1 class="text-2xl font-bold text-gray-800">Giới thiệu về: Boleno</h1>
+                <p class="mt-2 text-gray-600">Boleno - thương hiệu mỹ phẩm thuần chay tiên phong tại Việt Nam, ra đời vào năm 2018 với sứ mệnh cao cả: Trao quyền cho phụ nữ Việt Nam tỏa sáng rạng ngời và tự tin khẳng định bản thân. </p>
             </div>
             <div class="">
                 <button class="flex whitespace-nowrap rounded-lg bg-gradient-to-r 
@@ -37,8 +37,8 @@
 
         <main class=" px-2 pb-20 sm:px-8 lg:mt-16 lg:gap-x-4 lg:px-0">
             <div class="flex flex-column items-start">
-                <div class="text-3xl font-bold mt-5">Sản phẩm bán chạy</div>
-                <div class="grid grid-cols-4 lg:gap-x-4">
+                <div class="text-3xl font-bold px-5 w-full text-center" style="color: #0094ff">Sản phẩm bán chạy</div>
+                <div class="grid md:grid-cols-4 grid-cols-1">
                     <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
                 </div>
             </div>

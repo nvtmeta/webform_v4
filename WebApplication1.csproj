@@ -125,7 +125,6 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Controls\Header.ascx" />
     <Content Include="Orders.aspx" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="Products.aspx" />
@@ -280,6 +279,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

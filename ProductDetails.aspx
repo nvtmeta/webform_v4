@@ -6,8 +6,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <%--breadcums--%>
-    <div class=" py-12 px-5  leading-6">
-        <div class=" px-4 sm:px-6 lg:px-8">
+    <div class=" md:py-12 md:px-5 md:p-4  leading-6">
+        <div class=" md:px-4 sm:px-6 lg:px-8">
             <nav>
                 <ul class="flex m-0 items-center p-0">
                     <li class="text-left">
@@ -40,9 +40,9 @@
 
             <asp:Literal ID="ProductDetailLiteral" runat="server"></asp:Literal>
 
-        <h2 class="heading_product text-2xl px-5"> Gợi ý cho bạn: </h2>
-            <div class="grid grid-cols-4">
-            <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
+            <h2 class="heading_product text-2xl md:px-5">Gợi ý cho bạn: </h2>
+            <div class="grid md:grid-cols-4 grid-cols-1">
+                <asp:PlaceHolder ID="ProductsPlaceholder" runat="server"></asp:PlaceHolder>
             </div>
         </div>
 
