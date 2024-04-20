@@ -11,22 +11,31 @@ namespace WebApplication1
     public partial class Products : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+
         {
             string connectionString = "Server=localhost\\SQLEXPRESS;Database=db_ECommerceShop;Trusted_Connection=True;TrustServerCertificate=true;";
-            string sql = "SELECT * FROM Products WHERE isDeleted = 0"; // Replace with your actual query
+
+            string categoryId = Request.QueryString["categoryId"];
+
+            string sql = "SELECT * FROM Products WHERE isDeleted = 0";
+
+
+            // Check if categoryId is provided and append a filter to the SQL query
+            if (!string.IsNullOrEmpty(categoryId))
+            {
+                sql += " AND categoryId = @CategoryId";
+            }
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
                 SqlCommand command = new SqlCommand(sql, connection);
-
-
-                //// Create a DataTable to store the results
-                //DataTable dataTable = new DataTable();
-                //dataTable.Load(command.ExecuteReader()); // Load data into DataTable
-
-                //// Bind the DataTable to the GridView
-                //ProductsGridView.DataSource = dataTable;
-                //ProductsGridView.DataBind();
+                // Add a parameter for categoryName if it's provided
+                // Add a parameter for categoryId if it's provided
+                if (!string.IsNullOrEmpty(categoryId))
+                {
+                    command.Parameters.AddWithValue("@CategoryId", categoryId);
+                }
 
                 SqlDataReader reader = command.ExecuteReader();
 
@@ -44,7 +53,7 @@ namespace WebApplication1
             <div class="" relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-2xl
         bg-white shadow-sm border-2 border-solid transition cursor-pointer hover:border-blue-400 hover:shadow-xl"">
               <a class=""relative mx-3 mt-3 flex h-44 overflow-hidden rounded-2xl"" href=""/ProductDetails.aspx?productId={productId}"">
-                <img class=""object-cover w-full"" src=""{imageUrl}"" alt=""product image"" />
+                <img class=""object-cover w-full"" src=""{imageUrl}.jpg"" alt=""product image"" />
               </a>
               <div class=""mt-2 px-2 pb-2"">
                 <a  href=""/ProductDetails.aspx?productId={productId}"">
@@ -68,7 +77,6 @@ namespace WebApplication1
               </div>
             </div>
                ";
-
 
 
                     // Add the product card HTML to a placeholder control or directly to the page

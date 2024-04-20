@@ -66,9 +66,18 @@
                         <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white bg-clip-text text-transparent 
                  transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
                             href="/Products">Sản phẩm </a></li>
-                        <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Phấn Má</a></li>
-                        <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Kem Nền - BB Cream</a></li>
-                        <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Phấn Nước</a></li>
+                        <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" 
+                            href="/Products?categoryId=1">Phấn Má</a></li>
+                        <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition focus:outline-none 
+                            focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                           href="/Products?categoryId=2">Dưỡng da</a></li>
+                        <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition 
+                            focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                            href="/Products?categoryId=3">Dưỡng thể</a></li>
+                        <li class="lg:mr-12"><a class="rounded bg-gradient-to-r text-white  bg-clip-text text-transparent transition 
+                            focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" 
+                           href="/Products?categoryId=4">
+                            Nước hoa hồng</a></li>
                     </ul>
                     <hr class="mt-4 w-full lg:hidden" />
                   <div>
